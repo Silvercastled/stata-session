@@ -1,0 +1,615 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\HYU-PC\Desktop\3.28 stata session 2.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}28 Mar 2024, 16:16:22
+
+{com}. use http://fmwww.bc.edu/ec-p/data/wooldridge/ceosal1 
+
+. reg lsalary lsales
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       209
+{txt}{hline 13}{c +}{hline 34}   F(1, 207)       = {res}    55.30
+{txt}       Model {c |} {res} 14.0661688         1  14.0661688   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 52.6559944       207  .254376785   {txt}R-squared       ={res}    0.2108
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2070
+{txt}       Total {c |} {res} 66.7221632       208  .320779631   {txt}Root MSE        =   {res} .50436
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}     lsalary{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}lsales {c |}{col 14}{res}{space 2} .2566717{col 26}{space 2} .0345167{col 37}{space 1}    7.44{col 46}{space 3}0.000{col 54}{space 4} .1886224{col 67}{space 3} .3247209
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 4.821997{col 26}{space 2} .2883396{col 37}{space 1}   16.72{col 46}{space 3}0.000{col 54}{space 4} 4.253538{col 67}{space 3} 5.390455
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. reg lsalary lsales
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       209
+{txt}{hline 13}{c +}{hline 34}   F(1, 207)       = {res}    55.30
+{txt}       Model {c |} {res} 14.0661688         1  14.0661688   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 52.6559944       207  .254376785   {txt}R-squared       ={res}    0.2108
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2070
+{txt}       Total {c |} {res} 66.7221632       208  .320779631   {txt}Root MSE        =   {res} .50436
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}     lsalary{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}lsales {c |}{col 14}{res}{space 2} .2566717{col 26}{space 2} .0345167{col 37}{space 1}    7.44{col 46}{space 3}0.000{col 54}{space 4} .1886224{col 67}{space 3} .3247209
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 4.821997{col 26}{space 2} .2883396{col 37}{space 1}   16.72{col 46}{space 3}0.000{col 54}{space 4} 4.253538{col 67}{space 3} 5.390455
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. reg lsalary lsales
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       209
+{txt}{hline 13}{c +}{hline 34}   F(1, 207)       = {res}    55.30
+{txt}       Model {c |} {res} 14.0661688         1  14.0661688   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 52.6559944       207  .254376785   {txt}R-squared       ={res}    0.2108
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.2070
+{txt}       Total {c |} {res} 66.7221632       208  .320779631   {txt}Root MSE        =   {res} .50436
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}     lsalary{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 6}lsales {c |}{col 14}{res}{space 2} .2566717{col 26}{space 2} .0345167{col 37}{space 1}    7.44{col 46}{space 3}0.000{col 54}{space 4} .1886224{col 67}{space 3} .3247209
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} 4.821997{col 26}{space 2} .2883396{col 37}{space 1}   16.72{col 46}{space 3}0.000{col 54}{space 4} 4.253538{col 67}{space 3} 5.390455
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. display  .2566717/.0345167
+{res}7.4361599
+
+{com}. display  .2566717+ 2*.0345167
+{res}.3257051
+
+{com}. display  .2566717- 2*.0345167
+{res}.1876383
+
+{com}. use http://fmwww.bc.edu/ec-p/data/wooldridge/wage1
+
+. reg lwage educ
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       526
+{txt}{hline 13}{c +}{hline 34}   F(1, 524)       = {res}   119.58
+{txt}       Model {c |} {res} 27.5606296         1  27.5606296   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 120.769132       524  .230475443   {txt}R-squared       ={res}    0.1858
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1843
+{txt}       Total {c |} {res} 148.329762       525   .28253288   {txt}Root MSE        =   {res} .48008
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}       lwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .0827444{col 26}{space 2} .0075667{col 37}{space 1}   10.94{col 46}{space 3}0.000{col 54}{space 4} .0678796{col 67}{space 3} .0976092
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .5837726{col 26}{space 2} .0973358{col 37}{space 1}    6.00{col 46}{space 3}0.000{col 54}{space 4} .3925562{col 67}{space 3}  .774989
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. reg lwage educ if female==1
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       252
+{txt}{hline 13}{c +}{hline 34}   F(1, 250)       = {res}    56.55
+{txt}       Model {c |} {res} 9.13742872         1  9.13742872   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 40.3961831       250  .161584732   {txt}R-squared       ={res}    0.1845
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1812
+{txt}       Total {c |} {res} 49.5336118       251  .197345067   {txt}Root MSE        =   {res} .40198
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}       lwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .0771639{col 26}{space 2} .0102613{col 37}{space 1}    7.52{col 46}{space 3}0.000{col 54}{space 4} .0569543{col 67}{space 3} .0973735
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .4658901{col 26}{space 2} .1289047{col 37}{space 1}    3.61{col 46}{space 3}0.000{col 54}{space 4} .2120125{col 67}{space 3} .7197676
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. reg lwage educ if female==0
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       274
+{txt}{hline 13}{c +}{hline 34}   F(1, 272)       = {res}    62.99
+{txt}       Model {c |} {res} 14.6820937         1  14.6820937   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 63.4020566       272  .233095796   {txt}R-squared       ={res}    0.1880
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1850
+{txt}       Total {c |} {res} 78.0841503       273  .286022529   {txt}Root MSE        =   {res}  .4828
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}       lwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .0772279{col 26}{space 2} .0097308{col 37}{space 1}    7.94{col 46}{space 3}0.000{col 54}{space 4} .0580707{col 67}{space 3} .0963852
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .8259547{col 26}{space 2} .1278128{col 37}{space 1}    6.46{col 46}{space 3}0.000{col 54}{space 4} .5743265{col 67}{space 3} 1.077583
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. reg lwage educ if female>0
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}       252
+{txt}{hline 13}{c +}{hline 34}   F(1, 250)       = {res}    56.55
+{txt}       Model {c |} {res} 9.13742872         1  9.13742872   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 40.3961831       250  .161584732   {txt}R-squared       ={res}    0.1845
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.1812
+{txt}       Total {c |} {res} 49.5336118       251  .197345067   {txt}Root MSE        =   {res} .40198
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}       lwage{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      t{col 46}   P>|t|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 8}educ {c |}{col 14}{res}{space 2} .0771639{col 26}{space 2} .0102613{col 37}{space 1}    7.52{col 46}{space 3}0.000{col 54}{space 4} .0569543{col 67}{space 3} .0973735
+{txt}{space 7}_cons {c |}{col 14}{res}{space 2} .4658901{col 26}{space 2} .1289047{col 37}{space 1}    3.61{col 46}{space 3}0.000{col 54}{space 4} .2120125{col 67}{space 3} .7197676
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. tabulate female
+
+     {txt}female {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}        274       52.09       52.09
+{txt}          1 {c |}{res}        252       47.91      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        526      100.00
+
+{com}. tab educ
+
+       {txt}educ {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}          2        0.38        0.38
+{txt}          2 {c |}{res}          1        0.19        0.57
+{txt}          3 {c |}{res}          1        0.19        0.76
+{txt}          4 {c |}{res}          3        0.57        1.33
+{txt}          5 {c |}{res}          1        0.19        1.52
+{txt}          6 {c |}{res}          6        1.14        2.66
+{txt}          7 {c |}{res}          4        0.76        3.42
+{txt}          8 {c |}{res}         22        4.18        7.60
+{txt}          9 {c |}{res}         17        3.23       10.84
+{txt}         10 {c |}{res}         30        5.70       16.54
+{txt}         11 {c |}{res}         29        5.51       22.05
+{txt}         12 {c |}{res}        198       37.64       59.70
+{txt}         13 {c |}{res}         39        7.41       67.11
+{txt}         14 {c |}{res}         53       10.08       77.19
+{txt}         15 {c |}{res}         21        3.99       81.18
+{txt}         16 {c |}{res}         68       12.93       94.11
+{txt}         17 {c |}{res}         12        2.28       96.39
+{txt}         18 {c |}{res}         19        3.61      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        526      100.00
+
+{com}. tab wage
+
+       {txt}wage {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+        .53 {c |}{res}          1        0.19        0.19
+{txt}       1.43 {c |}{res}          1        0.19        0.38
+{txt}        1.5 {c |}{res}          2        0.38        0.76
+{txt}       1.63 {c |}{res}          1        0.19        0.95
+{txt}       1.67 {c |}{res}          1        0.19        1.14
+{txt}       1.75 {c |}{res}          1        0.19        1.33
+{txt}       1.96 {c |}{res}          1        0.19        1.52
+{txt}          2 {c |}{res}          4        0.76        2.28
+{txt}       2.14 {c |}{res}          1        0.19        2.47
+{txt}       2.17 {c |}{res}          1        0.19        2.66
+{txt}       2.23 {c |}{res}          1        0.19        2.85
+{txt}       2.25 {c |}{res}          1        0.19        3.04
+{txt}       2.27 {c |}{res}          1        0.19        3.23
+{txt}        2.3 {c |}{res}          1        0.19        3.42
+{txt}       2.31 {c |}{res}          1        0.19        3.61
+{txt}       2.38 {c |}{res}          1        0.19        3.80
+{txt}        2.5 {c |}{res}          1        0.19        3.99
+{txt}       2.53 {c |}{res}          1        0.19        4.18
+{txt}       2.54 {c |}{res}          1        0.19        4.37
+{txt}        2.6 {c |}{res}          1        0.19        4.56
+{txt}       2.65 {c |}{res}          1        0.19        4.75
+{txt}        2.7 {c |}{res}          1        0.19        4.94
+{txt}       2.75 {c |}{res}          1        0.19        5.13
+{txt}       2.83 {c |}{res}          1        0.19        5.32
+{txt}       2.87 {c |}{res}          1        0.19        5.51
+{txt}       2.88 {c |}{res}          1        0.19        5.70
+{txt}       2.89 {c |}{res}          2        0.38        6.08
+{txt}        2.9 {c |}{res}         16        3.04        9.13
+{txt}       2.91 {c |}{res}          4        0.76        9.89
+{txt}       2.92 {c |}{res}          5        0.95       10.84
+{txt}       2.93 {c |}{res}          1        0.19       11.03
+{txt}       2.95 {c |}{res}          3        0.57       11.60
+{txt}          3 {c |}{res}         34        6.46       18.06
+{txt}       3.05 {c |}{res}          3        0.57       18.63
+{txt}       3.06 {c |}{res}          1        0.19       18.82
+{txt}       3.08 {c |}{res}          1        0.19       19.01
+{txt}        3.1 {c |}{res}          4        0.76       19.77
+{txt}       3.13 {c |}{res}          3        0.57       20.34
+{txt}       3.15 {c |}{res}          2        0.38       20.72
+{txt}       3.18 {c |}{res}          1        0.19       20.91
+{txt}        3.2 {c |}{res}          4        0.76       21.67
+{txt}       3.24 {c |}{res}          2        0.38       22.05
+{txt}       3.25 {c |}{res}          8        1.52       23.57
+{txt}       3.26 {c |}{res}          2        0.38       23.95
+{txt}       3.28 {c |}{res}          1        0.19       24.14
+{txt}       3.29 {c |}{res}          1        0.19       24.33
+{txt}        3.3 {c |}{res}          3        0.57       24.90
+{txt}       3.33 {c |}{res}          2        0.38       25.29
+{txt}       3.35 {c |}{res}          5        0.95       26.24
+{txt}       3.37 {c |}{res}          1        0.19       26.43
+{txt}        3.4 {c |}{res}          2        0.38       26.81
+{txt}       3.45 {c |}{res}          2        0.38       27.19
+{txt}        3.5 {c |}{res}         18        3.42       30.61
+{txt}       3.51 {c |}{res}          2        0.38       30.99
+{txt}       3.52 {c |}{res}          1        0.19       31.18
+{txt}       3.54 {c |}{res}          1        0.19       31.37
+{txt}       3.55 {c |}{res}          2        0.38       31.75
+{txt}       3.58 {c |}{res}          1        0.19       31.94
+{txt}        3.6 {c |}{res}          3        0.57       32.51
+{txt}       3.64 {c |}{res}          1        0.19       32.70
+{txt}       3.65 {c |}{res}          1        0.19       32.89
+{txt}       3.71 {c |}{res}          2        0.38       33.27
+{txt}       3.73 {c |}{res}          1        0.19       33.46
+{txt}       3.75 {c |}{res}         11        2.09       35.55
+{txt}       3.76 {c |}{res}          1        0.19       35.74
+{txt}        3.8 {c |}{res}          1        0.19       35.93
+{txt}       3.81 {c |}{res}          1        0.19       36.12
+{txt}       3.83 {c |}{res}          1        0.19       36.31
+{txt}       3.85 {c |}{res}          1        0.19       36.50
+{txt}       3.88 {c |}{res}          1        0.19       36.69
+{txt}       3.91 {c |}{res}          1        0.19       36.88
+{txt}       3.95 {c |}{res}          1        0.19       37.07
+{txt}          4 {c |}{res}         15        2.85       39.92
+{txt}       4.05 {c |}{res}          2        0.38       40.30
+{txt}       4.08 {c |}{res}          1        0.19       40.49
+{txt}        4.1 {c |}{res}          3        0.57       41.06
+{txt}       4.11 {c |}{res}          1        0.19       41.25
+{txt}       4.14 {c |}{res}          1        0.19       41.44
+{txt}       4.17 {c |}{res}          1        0.19       41.63
+{txt}        4.2 {c |}{res}          3        0.57       42.21
+{txt}       4.24 {c |}{res}          1        0.19       42.40
+{txt}       4.25 {c |}{res}          1        0.19       42.59
+{txt}       4.27 {c |}{res}          1        0.19       42.78
+{txt}       4.28 {c |}{res}          1        0.19       42.97
+{txt}       4.29 {c |}{res}          2        0.38       43.35
+{txt}       4.33 {c |}{res}          1        0.19       43.54
+{txt}       4.34 {c |}{res}          1        0.19       43.73
+{txt}       4.38 {c |}{res}          2        0.38       44.11
+{txt}       4.44 {c |}{res}          2        0.38       44.49
+{txt}        4.5 {c |}{res}         20        3.80       48.29
+{txt}       4.51 {c |}{res}          1        0.19       48.48
+{txt}       4.55 {c |}{res}          2        0.38       48.86
+{txt}       4.57 {c |}{res}          2        0.38       49.24
+{txt}        4.6 {c |}{res}          1        0.19       49.43
+{txt}       4.63 {c |}{res}          2        0.38       49.81
+{txt}       4.65 {c |}{res}          2        0.38       50.19
+{txt}       4.67 {c |}{res}          1        0.19       50.38
+{txt}       4.68 {c |}{res}          3        0.57       50.95
+{txt}       4.69 {c |}{res}          1        0.19       51.14
+{txt}       4.72 {c |}{res}          1        0.19       51.33
+{txt}       4.75 {c |}{res}          3        0.57       51.90
+{txt}       4.79 {c |}{res}          2        0.38       52.28
+{txt}       4.81 {c |}{res}          1        0.19       52.47
+{txt}       4.91 {c |}{res}          1        0.19       52.66
+{txt}       4.95 {c |}{res}          1        0.19       52.85
+{txt}          5 {c |}{res}         14        2.66       55.51
+{txt}       5.05 {c |}{res}          2        0.38       55.89
+{txt}       5.11 {c |}{res}          1        0.19       56.08
+{txt}       5.13 {c |}{res}          1        0.19       56.27
+{txt}       5.15 {c |}{res}          1        0.19       56.46
+{txt}        5.2 {c |}{res}          1        0.19       56.65
+{txt}       5.25 {c |}{res}          5        0.95       57.60
+{txt}        5.3 {c |}{res}          1        0.19       57.79
+{txt}        5.4 {c |}{res}          1        0.19       57.98
+{txt}       5.43 {c |}{res}          1        0.19       58.17
+{txt}       5.48 {c |}{res}          1        0.19       58.37
+{txt}        5.5 {c |}{res}          2        0.38       58.75
+{txt}       5.52 {c |}{res}          1        0.19       58.94
+{txt}       5.58 {c |}{res}          1        0.19       59.13
+{txt}        5.6 {c |}{res}          2        0.38       59.51
+{txt}       5.63 {c |}{res}          1        0.19       59.70
+{txt}       5.65 {c |}{res}          1        0.19       59.89
+{txt}        5.7 {c |}{res}          1        0.19       60.08
+{txt}       5.71 {c |}{res}          3        0.57       60.65
+{txt}       5.75 {c |}{res}          1        0.19       60.84
+{txt}       5.77 {c |}{res}          1        0.19       61.03
+{txt}       5.78 {c |}{res}          1        0.19       61.22
+{txt}        5.8 {c |}{res}          1        0.19       61.41
+{txt}       5.83 {c |}{res}          1        0.19       61.60
+{txt}       5.84 {c |}{res}          1        0.19       61.79
+{txt}        5.9 {c |}{res}          2        0.38       62.17
+{txt}       5.91 {c |}{res}          1        0.19       62.36
+{txt}       5.95 {c |}{res}          1        0.19       62.55
+{txt}          6 {c |}{res}         10        1.90       64.45
+{txt}       6.08 {c |}{res}          2        0.38       64.83
+{txt}       6.11 {c |}{res}          1        0.19       65.02
+{txt}       6.15 {c |}{res}          2        0.38       65.40
+{txt}       6.18 {c |}{res}          1        0.19       65.59
+{txt}       6.22 {c |}{res}          1        0.19       65.78
+{txt}       6.25 {c |}{res}         18        3.42       69.20
+{txt}       6.26 {c |}{res}          1        0.19       69.39
+{txt}       6.29 {c |}{res}          1        0.19       69.58
+{txt}       6.33 {c |}{res}          2        0.38       69.96
+{txt}       6.35 {c |}{res}          1        0.19       70.15
+{txt}       6.36 {c |}{res}          2        0.38       70.53
+{txt}       6.38 {c |}{res}          1        0.19       70.72
+{txt}       6.43 {c |}{res}          1        0.19       70.91
+{txt}       6.45 {c |}{res}          1        0.19       71.10
+{txt}       6.46 {c |}{res}          1        0.19       71.29
+{txt}        6.5 {c |}{res}          7        1.33       72.62
+{txt}       6.53 {c |}{res}          1        0.19       72.81
+{txt}       6.63 {c |}{res}          3        0.57       73.38
+{txt}       6.67 {c |}{res}          2        0.38       73.76
+{txt}       6.76 {c |}{res}          1        0.19       73.95
+{txt}        6.8 {c |}{res}          1        0.19       74.14
+{txt}       6.85 {c |}{res}          1        0.19       74.33
+{txt}       6.88 {c |}{res}          4        0.76       75.10
+{txt}          7 {c |}{res}          2        0.38       75.48
+{txt}       7.14 {c |}{res}          2        0.38       75.86
+{txt}       7.25 {c |}{res}          1        0.19       76.05
+{txt}       7.26 {c |}{res}          1        0.19       76.24
+{txt}       7.36 {c |}{res}          1        0.19       76.43
+{txt}        7.5 {c |}{res}          6        1.14       77.57
+{txt}        7.6 {c |}{res}          1        0.19       77.76
+{txt}       7.63 {c |}{res}          1        0.19       77.95
+{txt}       7.78 {c |}{res}          2        0.38       78.33
+{txt}       7.81 {c |}{res}          1        0.19       78.52
+{txt}        7.9 {c |}{res}          1        0.19       78.71
+{txt}          8 {c |}{res}          6        1.14       79.85
+{txt}       8.02 {c |}{res}          1        0.19       80.04
+{txt}        8.1 {c |}{res}          1        0.19       80.23
+{txt}       8.13 {c |}{res}          1        0.19       80.42
+{txt}       8.18 {c |}{res}          1        0.19       80.61
+{txt}       8.33 {c |}{res}          2        0.38       80.99
+{txt}       8.43 {c |}{res}          2        0.38       81.37
+{txt}       8.45 {c |}{res}          1        0.19       81.56
+{txt}       8.48 {c |}{res}          1        0.19       81.75
+{txt}        8.5 {c |}{res}          1        0.19       81.94
+{txt}       8.53 {c |}{res}          1        0.19       82.13
+{txt}        8.6 {c |}{res}          1        0.19       82.32
+{txt}       8.63 {c |}{res}          1        0.19       82.51
+{txt}       8.64 {c |}{res}          1        0.19       82.70
+{txt}       8.65 {c |}{res}          1        0.19       82.89
+{txt}       8.75 {c |}{res}          7        1.33       84.22
+{txt}       8.77 {c |}{res}          1        0.19       84.41
+{txt}        8.8 {c |}{res}          1        0.19       84.60
+{txt}       8.92 {c |}{res}          1        0.19       84.79
+{txt}          9 {c |}{res}          3        0.57       85.36
+{txt}       9.05 {c |}{res}          1        0.19       85.55
+{txt}       9.09 {c |}{res}          1        0.19       85.74
+{txt}       9.13 {c |}{res}          1        0.19       85.93
+{txt}        9.3 {c |}{res}          1        0.19       86.12
+{txt}       9.33 {c |}{res}          1        0.19       86.31
+{txt}       9.42 {c |}{res}          1        0.19       86.50
+{txt}       9.56 {c |}{res}          1        0.19       86.69
+{txt}       9.68 {c |}{res}          1        0.19       86.88
+{txt}        9.8 {c |}{res}          1        0.19       87.07
+{txt}       9.85 {c |}{res}          1        0.19       87.26
+{txt}         10 {c |}{res}         15        2.85       90.11
+{txt}      10.38 {c |}{res}          1        0.19       90.30
+{txt}      10.63 {c |}{res}          1        0.19       90.49
+{txt}      10.91 {c |}{res}          1        0.19       90.68
+{txt}      10.92 {c |}{res}          1        0.19       90.87
+{txt}      10.95 {c |}{res}          1        0.19       91.06
+{txt}       11.1 {c |}{res}          1        0.19       91.25
+{txt}      11.11 {c |}{res}          1        0.19       91.44
+{txt}      11.25 {c |}{res}          2        0.38       91.83
+{txt}      11.55 {c |}{res}          1        0.19       92.02
+{txt}      11.56 {c |}{res}          1        0.19       92.21
+{txt}      11.71 {c |}{res}          1        0.19       92.40
+{txt}      11.76 {c |}{res}          1        0.19       92.59
+{txt}      11.82 {c |}{res}          1        0.19       92.78
+{txt}       11.9 {c |}{res}          1        0.19       92.97
+{txt}      11.98 {c |}{res}          1        0.19       93.16
+{txt}      12.22 {c |}{res}          1        0.19       93.35
+{txt}      12.39 {c |}{res}          1        0.19       93.54
+{txt}       12.5 {c |}{res}          7        1.33       94.87
+{txt}         13 {c |}{res}          1        0.19       95.06
+{txt}      13.08 {c |}{res}          1        0.19       95.25
+{txt}      13.16 {c |}{res}          1        0.19       95.44
+{txt}      13.33 {c |}{res}          1        0.19       95.63
+{txt}       13.7 {c |}{res}          1        0.19       95.82
+{txt}      13.95 {c |}{res}          1        0.19       96.01
+{txt}      14.38 {c |}{res}          1        0.19       96.20
+{txt}      14.58 {c |}{res}          1        0.19       96.39
+{txt}         15 {c |}{res}          3        0.57       96.96
+{txt}      15.38 {c |}{res}          1        0.19       97.15
+{txt}      17.33 {c |}{res}          1        0.19       97.34
+{txt}       17.5 {c |}{res}          1        0.19       97.53
+{txt}      17.71 {c |}{res}          1        0.19       97.72
+{txt}         18 {c |}{res}          1        0.19       97.91
+{txt}      18.16 {c |}{res}          2        0.38       98.29
+{txt}      18.18 {c |}{res}          1        0.19       98.48
+{txt}      18.89 {c |}{res}          1        0.19       98.67
+{txt}      19.98 {c |}{res}          1        0.19       98.86
+{txt}         20 {c |}{res}          1        0.19       99.05
+{txt}      21.63 {c |}{res}          1        0.19       99.24
+{txt}      21.86 {c |}{res}          1        0.19       99.43
+{txt}       22.2 {c |}{res}          1        0.19       99.62
+{txt}      22.86 {c |}{res}          1        0.19       99.81
+{txt}      24.98 {c |}{res}          1        0.19      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        526      100.00
+
+{com}. histogram wage
+{txt}(bin={res}22{txt}, start={res}.52999997{txt}, width={res}1.1113636{txt})
+{res}
+{com}. histogram wage, width(1) start(0)
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage, width(1) start(0) frequency
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage if female==1, width(1) start(0) frequency
+{txt}(bin={res}22{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage if female==0, width(1) start(0) frequency
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage if female==0, width(1) start(0) frequency title("male")
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage if female==0, width(1) start(0) fraction title("male")
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. histogram wage if smsa==0, width(1) start(0) fraction title("male")
+{txt}(bin={res}20{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. 
+. histogram wage if smsa==1, width(1) start(0) fraction title("male")
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. 
+. histogram wage if smsa==1, width(1) start(0) fraction title("도시")
+{txt}(bin={res}25{txt}, start={res}0{txt}, width={res}1{txt})
+{res}
+{com}. 
+. histogram wage, by(female) width(1) start(0) fraction
+{res}
+{com}. 
+. sum educ
+
+{txt}    Variable {c |}        Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 57}
+{space 8}educ {c |}{res}        526    12.56274    2.769022          0         18
+
+{com}. generate educ_cat=.
+{txt}(526 missing values generated)
+
+{com}. browse educ*
+
+. replace educ_cat=0 if educ>=0 & educ<=6
+{txt}(14 real changes made)
+
+{com}. replace educ_cat=0 if educ>6 & educ<=9
+{txt}(43 real changes made)
+
+{com}. replace educ_cat=0 if educ>=0 & educ<=6
+{txt}(0 real changes made)
+
+{com}. replace educ_cat=1 if educ>=0 & educ<=6
+{txt}(14 real changes made)
+
+{com}. drop educ_cat
+
+. generate educ_cat=.
+{txt}(526 missing values generated)
+
+{com}. replace educ_cat=1 if educ>=0 & educ<=6
+{txt}(14 real changes made)
+
+{com}. replace educ_cat=0 if educ>=0 & educ<=6
+{txt}(14 real changes made)
+
+{com}. replace educ_cat=1 if educ>6 & educ<=9
+{txt}(43 real changes made)
+
+{com}. replace educ_cat=2 if educ>9 & educ<=12
+{txt}(257 real changes made)
+
+{com}. replace educ_cat=3 if educ>12 & educ<=16
+{txt}(181 real changes made)
+
+{com}. replace educ_cat=4 if educ>16
+{txt}(31 real changes made)
+
+{com}. tab  educ_cat
+
+   {txt}educ_cat {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         14        2.66        2.66
+{txt}          1 {c |}{res}         43        8.17       10.84
+{txt}          2 {c |}{res}        257       48.86       59.70
+{txt}          3 {c |}{res}        181       34.41       94.11
+{txt}          4 {c |}{res}         31        5.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        526      100.00
+
+{com}. tab  educ educ_cat
+
+           {txt}{c |}                        educ_cat
+      educ {c |}         0          1          2          3          4 {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}         2          0          0          0          0 {txt}{c |}{res}         2 
+{txt}         2 {c |}{res}         1          0          0          0          0 {txt}{c |}{res}         1 
+{txt}         3 {c |}{res}         1          0          0          0          0 {txt}{c |}{res}         1 
+{txt}         4 {c |}{res}         3          0          0          0          0 {txt}{c |}{res}         3 
+{txt}         5 {c |}{res}         1          0          0          0          0 {txt}{c |}{res}         1 
+{txt}         6 {c |}{res}         6          0          0          0          0 {txt}{c |}{res}         6 
+{txt}         7 {c |}{res}         0          4          0          0          0 {txt}{c |}{res}         4 
+{txt}         8 {c |}{res}         0         22          0          0          0 {txt}{c |}{res}        22 
+{txt}         9 {c |}{res}         0         17          0          0          0 {txt}{c |}{res}        17 
+{txt}        10 {c |}{res}         0          0         30          0          0 {txt}{c |}{res}        30 
+{txt}        11 {c |}{res}         0          0         29          0          0 {txt}{c |}{res}        29 
+{txt}        12 {c |}{res}         0          0        198          0          0 {txt}{c |}{res}       198 
+{txt}        13 {c |}{res}         0          0          0         39          0 {txt}{c |}{res}        39 
+{txt}        14 {c |}{res}         0          0          0         53          0 {txt}{c |}{res}        53 
+{txt}        15 {c |}{res}         0          0          0         21          0 {txt}{c |}{res}        21 
+{txt}        16 {c |}{res}         0          0          0         68          0 {txt}{c |}{res}        68 
+{txt}        17 {c |}{res}         0          0          0          0         12 {txt}{c |}{res}        12 
+{txt}        18 {c |}{res}         0          0          0          0         19 {txt}{c |}{res}        19 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}        14         43        257        181         31 {txt}{c |}{res}       526 
+
+
+{com}. tab  educ_cat
+
+   {txt}educ_cat {c |}      Freq.     Percent        Cum.
+{hline 12}{c +}{hline 35}
+          0 {c |}{res}         14        2.66        2.66
+{txt}          1 {c |}{res}         43        8.17       10.84
+{txt}          2 {c |}{res}        257       48.86       59.70
+{txt}          3 {c |}{res}        181       34.41       94.11
+{txt}          4 {c |}{res}         31        5.89      100.00
+{txt}{hline 12}{c +}{hline 35}
+      Total {c |}{res}        526      100.00
+
+{com}. tab  female educ_cat
+
+           {txt}{c |}                        educ_cat
+    female {c |}         0          1          2          3          4 {c |}     Total
+{hline 11}{c +}{hline 55}{c +}{hline 10}
+         0 {c |}{res}         9         25        115        102         23 {txt}{c |}{res}       274 
+{txt}         1 {c |}{res}         5         18        142         79          8 {txt}{c |}{res}       252 
+{txt}{hline 11}{c +}{hline 55}{c +}{hline 10}
+     Total {c |}{res}        14         43        257        181         31 {txt}{c |}{res}       526 
+
+
+{com}. tab   educ_cat female
+
+           {txt}{c |}        female
+  educ_cat {c |}         0          1 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}         9          5 {txt}{c |}{res}        14 
+{txt}         1 {c |}{res}        25         18 {txt}{c |}{res}        43 
+{txt}         2 {c |}{res}       115        142 {txt}{c |}{res}       257 
+{txt}         3 {c |}{res}       102         79 {txt}{c |}{res}       181 
+{txt}         4 {c |}{res}        23          8 {txt}{c |}{res}        31 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}       274        252 {txt}{c |}{res}       526 
+
+
+{com}. tab   educ_cat female, col
+{txt}
+{c TLC}{hline 19}{c TRC}
+{c |} Key{col 21}{c |}
+{c LT}{hline 19}{c RT}
+{c |}{space 5}{it:frequency}{col 21}{c |}
+{c |}{space 1}{it:column percentage}{col 21}{c |}
+{c BLC}{hline 19}{c BRC}
+
+           {c |}        female
+  educ_cat {c |}         0          1 {c |}     Total
+{hline 11}{c +}{hline 22}{c +}{hline 10}
+         0 {c |}{res}         9          5 {txt}{c |}{res}        14 
+           {txt}{c |}{res}      3.28       1.98 {txt}{c |}{res}      2.66 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         1 {c |}{res}        25         18 {txt}{c |}{res}        43 
+           {txt}{c |}{res}      9.12       7.14 {txt}{c |}{res}      8.17 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         2 {c |}{res}       115        142 {txt}{c |}{res}       257 
+           {txt}{c |}{res}     41.97      56.35 {txt}{c |}{res}     48.86 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         3 {c |}{res}       102         79 {txt}{c |}{res}       181 
+           {txt}{c |}{res}     37.23      31.35 {txt}{c |}{res}     34.41 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+         4 {c |}{res}        23          8 {txt}{c |}{res}        31 
+           {txt}{c |}{res}      8.39       3.17 {txt}{c |}{res}      5.89 
+{txt}{hline 11}{c +}{hline 22}{c +}{hline 10}
+     Total {c |}{res}       274        252 {txt}{c |}{res}       526 
+           {txt}{c |}{res}    100.00     100.00 {txt}{c |}{res}    100.00 
+
+
+{com}. use http://fmwww.bc.edu/ec-p/data/wooldridge/ceosal1 
+{err}no; data in memory would be lost
+{txt}{search r(4), local:r(4);}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}C:\Users\HYU-PC\Desktop\3.28 stata session 2.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}28 Mar 2024, 16:17:46
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
